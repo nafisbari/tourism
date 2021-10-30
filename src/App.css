@@ -27,6 +27,15 @@
 .App-link {
   color: #61dafb;
 }
+h1,h5 {
+  font-family: 'Pacifico', cursive;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+}
 
 @keyframes App-logo-spin {
   from {

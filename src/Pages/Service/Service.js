@@ -8,7 +8,7 @@ const Service = (props) => {
     return (
         <div>
             <Col>
-                <Card border="dark" style={{ height: '530px' }} className="my-5 card-hover" >
+                <Card border="dark" style={{ height: '550px' }} className="my-5 card-hover" >
 
                     <Card.Img variant="top" className="w-100 me-auto rounded" src={img} />
 

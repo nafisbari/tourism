@@ -34,9 +34,9 @@ const Header = () => {
                             </Nav>
 
                             {user?.email ?
-                                <Button onClick={logOut} className="btn-color" variant=" mx-3">Logout <i class="fas fa-arrow-right"/></Button>
+                                <Button onClick={logOut} className="btn-color3" variant=" mx-3">Logout <i className="fas fa-arrow-right" /></Button>
                                 :
-                                <Link to="/login"><Button className="btn-color" variant=" mx-3"><i class="fab fa-google" /> Login</Button></Link>}
+                                <Link to="/login"><Button className="btn-color3" variant=" mx-3"><i className="fab fa-google" /> Login</Button></Link>}
 
                             <Navbar.Text >
                                 {user?.email && <p className="fw-bold"> {user?.displayName}</p>}

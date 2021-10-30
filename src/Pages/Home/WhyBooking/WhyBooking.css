@@ -1,0 +1,11 @@
+.background-image-why-booking{
+    background-image: linear-gradient(rgba(184, 182, 182, 0.5), rgba(200, 195, 195, 0.5)), url("https://i.ibb.co/QNGBM00/finger-pointy.jpg"); 
+    height: 100%;
+    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+
+  
+}
