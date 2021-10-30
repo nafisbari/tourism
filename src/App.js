@@ -8,6 +8,8 @@ import Header from './Header/Header';
 import Login from './Pages/Login/Login';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
+import More from './Pages/More/More';
+import Booking from './Pages/Booking/Booking';
 
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
             </Route>
             <PrivateRoute path="/services">
               <Services></Services>
+            </PrivateRoute>
+            <PrivateRoute path="/more/:moreId">
+              <More></More>
+            </PrivateRoute>
+            <PrivateRoute path="/booking">
+              <Booking></Booking>
             </PrivateRoute>
             <Route path="/about">
               <About></About>
