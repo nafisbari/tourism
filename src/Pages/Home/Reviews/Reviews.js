@@ -29,13 +29,13 @@ const Reviews = () => {
                         </div>
                         <hr className="" />
                         <div>
-                            <p className="text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore consequatur temporibus deleniti ipsa recusandae. Nisi voluptatem a perspiciatis hic beatae, voluptatibus consequatur nulla similique sequi veniam, eaque cumque, fugiat rerum!</p>
+                            <p className="text-start">Holiday has come a long way since then, now giving over 100,000 travelers a year the opportunity to experience small group travel across all 7 continents. They use local transport, sleep in local accommodation from Cambodian stilt houses to Moroccan riads, and employ 100% local leaders.</p>
                             <p className="text-color text-start">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="far fa-star"></i>
                             </p>
 
                         </div>
@@ -55,13 +55,13 @@ const Reviews = () => {
                         </div>
                         <hr className="" />
                         <div>
-                            <p className="text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore consequatur temporibus deleniti ipsa recusandae. Nisi voluptatem a perspiciatis hic beatae, voluptatibus consequatur nulla similique sequi veniam, eaque cumque, fugiat rerum!</p>
+                            <p className="text-start">Holiday has come a long way since then, now giving over 100,000 travelers a year the opportunity to experience small group travel across all 7 continents. They use local transport, sleep in local accommodation from Cambodian stilt houses to Moroccan riads, and employ 100% local leaders.</p>
                             <p className="text-color text-start">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
                             </p>
 
                         </div>
@@ -81,13 +81,13 @@ const Reviews = () => {
                         </div>
                         <hr className="" />
                         <div>
-                            <p className="text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore consequatur temporibus deleniti ipsa recusandae. Nisi voluptatem a perspiciatis hic beatae, voluptatibus consequatur nulla similique sequi veniam, eaque cumque, fugiat rerum!</p>
+                            <p className="text-start">Holiday has come a long way since then, now giving over 100,000 travelers a year the opportunity to experience small group travel across all 7 continents. They use local transport, sleep in local accommodation from Cambodian stilt houses to Moroccan riads, and employ 100% local leaders.</p>
                             <p className="text-color text-start">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
                             </p>
 
                         </div>
@@ -107,13 +107,13 @@ const Reviews = () => {
                         </div>
                         <hr className="" />
                         <div>
-                            <p className="text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore consequatur temporibus deleniti ipsa recusandae. Nisi voluptatem a perspiciatis hic beatae, voluptatibus consequatur nulla similique sequi veniam, eaque cumque, fugiat rerum!</p>
+                            <p className="text-start">Holiday has come a long way since then, now giving over 100,000 travelers a year the opportunity to experience small group travel across all 7 continents. They use local transport, sleep in local accommodation from Cambodian stilt houses to Moroccan riads, and employ 100% local leaders.</p>
                             <p className="text-color text-start">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="far fa-star"></i>
                             </p>
 
                         </div>

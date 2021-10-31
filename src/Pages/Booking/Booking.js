@@ -19,7 +19,7 @@ const Booking = () => {
                 } else {
                     alert('Ooops!! Something went wrong. Please try again after sometime ');
                 }
-                
+
             })
     }
 
@@ -38,6 +38,8 @@ const Booking = () => {
                     <input placeholder="City" defaultValue="" {...register("city")} />
 
                     <input placeholder="Phone Number" defaultValue="" {...register("phone")} />
+
+                    <input value="pending" {...register("status")} type="hidden" />
 
                     <input type="submit" className="btn-color2" />
                 </form>

@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Button, Table } from 'react-bootstrap';
 import './ManageOrders.css'
@@ -5,11 +6,12 @@ import './ManageOrders.css'
 
 const ManageOrders = () => {
     const [allOrders, setAllOrders] = useState([])
+    const [monitorOrder, setmonitorOrder] = useState(true);
     useEffect(() => {
         fetch('https://thawing-escarpment-47368.herokuapp.com/orders')
             .then(res => res.json())
             .then(data => setAllOrders(data))
-    }, [])
+    }, [monitorOrder])
 
     // delete function
     const handleDelete = id => {
@@ -34,10 +36,20 @@ const ManageOrders = () => {
         }
     }
 
+    // update order
+    const handleUpdate = id => {
+        const uri = `https://thawing-escarpment-47368.herokuapp.com/orders/${id}`;
+        axios.put(uri, { status: "approved" })
+            .then(res => {
+                console.log(res);
+                setmonitorOrder(!monitorOrder)
+            })
+    }
+
 
     return (
         <div className="background-img-table">
-            <div className="container  p-5">
+            <div className="container  p-3">
                 <h1 className="text-color my-5">Manage All Orders</h1>
                 <Table striped bordered hover size="sm" variant="success " className="rounded rounded-lg text-inf text-bold fw-bolder" responsive>
                     <thead>
@@ -48,7 +60,9 @@ const ManageOrders = () => {
                             <th><h4 className="text-color">Address</h4></th>
                             <th><h4 className="text-color">City</h4></th>
                             <th><h4 className="text-color">Phone</h4></th>
-                            <th><h4 className="text-color">Choose</h4></th>
+                            <th><h4 className="text-color">Status</h4></th>
+                            <th><h4 className="text-color">Confirm Order</h4></th>
+                            <th><h4 className="text-color">Cancel Order</h4></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -62,7 +76,10 @@ const ManageOrders = () => {
                                     <td>{orders.address}</td>
                                     <td>{orders.city}</td>
                                     <td>{orders.phone}</td>
-                                    <td><Button onClick={() => handleDelete(orders._id)} className="btn-color">Delete</Button></td>
+                                    <td className="text-success">{orders.status}</td>
+                                    <td><Button onClick={() => handleUpdate(orders._id)} className="btn-color">Approve</Button></td>
+                                    <td><Button onClick={() => handleDelete(orders._id)} className="btn-color">Cancel</Button></td>
+
                                 </tr>
                             ))}
                     </tbody>

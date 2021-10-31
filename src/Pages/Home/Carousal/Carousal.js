@@ -11,7 +11,7 @@ const Carousal = () => {
                 <Carousel.Item>
 
                     <div className="img-dark">
-                        <img src={'https://i.ibb.co/4TQb3TF/rsz-3chair-table-dinning-beach-sea-with-blue-sky.jpg'}
+                        <img src="https://i.ibb.co/YcQtzJH/rsz-1slider-given-3.png"
                             alt="First slide"
                         />
                     </div>
@@ -20,7 +20,7 @@ const Carousal = () => {
                         <div className="row ">
                             <div className="col-lg-8 banner-text">
                                 <h1 className=" text-color text-start ">Travel & Explore the World</h1>
-                                <h5 className="text-start text-light">abitur facilisis consectetur porttitor. Aenean eleifend quis nunc eget aliquet..</h5>
+                                <h5 className="text-start text-light">It is always sad to leave a place to which one knows one will never return.</h5>
 
                                 <div className="d-flex ">
 
@@ -50,7 +50,7 @@ const Carousal = () => {
                         <div className="row ">
                             <div className="col-lg-8 banner-text">
                                 <h1 className=" text-color text-start ">Look & Feel the World</h1>
-                                <h5 className="text-start text-light">abitur facilisis consectetur porttitor. Aenean eleifend quis nunc eget aliquet..</h5>
+                                <h5 className="text-start text-light">It is always sad to leave a place to which one knows one will never return.</h5>
 
                                 <div className="d-flex ">
 
@@ -80,7 +80,7 @@ const Carousal = () => {
                         <div className="row me-auto">
                             <div className="col-lg-8 banner-text">
                                 <h1 className=" text-color text-start ">Relax & Enjoy the World</h1>
-                                <h5 className="text-start text-light">abitur facilisis consectetur porttitor. Aenean eleifend quis nunc eget aliquet..</h5>
+                                <h5 className="text-start text-light">It is always sad to leave a place to which one knows one will never return.</h5>
 
                                 <div className="d-flex ">
 
