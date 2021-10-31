@@ -1,8 +1,10 @@
 import React from 'react';
 import Services from '../Services/Services';
 import Carousal from './Carousal/Carousal';
-import Discover from './Carousal/Discover/Discover';
+import Discover from './Discover/Discover';
 import './Home.css'
+import PopularTours from './PopularTours/PopularTours';
+import Reviews from './Reviews/Reviews';
 import WhyBooking from './WhyBooking/WhyBooking';
 
 const Home = () => {
@@ -19,9 +21,15 @@ const Home = () => {
                 <p className="text-center w-75 mx-auto">With a strong focus on fulfilling customer needs and service, we are the most trusted online travel brand. Every view and opinion is heard and respected. We talk to people not their designations. Great Peers We are a team of achievers. Our folks are ambitious, go getters, fun loving, aware and proactive</p>
                 <Services></Services>
             </div>
-
+            <div>
+                <Reviews></Reviews>
+            </div>
             <div>
                 <WhyBooking></WhyBooking>
+            </div>
+
+            <div>
+                <PopularTours></PopularTours>
             </div>
         </div>
     );

@@ -10,27 +10,37 @@ const Header = () => {
     return (
         <div>
             <>
-                <Navbar bg="light" variant="light " sticky="top" collapseOnSelect expand="lg">
+                <Navbar bg="" className="background" variant="light " sticky="top" collapseOnSelect expand="lg">
                     <Container>
-                        <Navbar.Brand as={NavHashLink} to="/home#home">Holiday.com</Navbar.Brand>
+                        <Navbar.Brand as={NavHashLink} to="/home#home">
+                            <img
+                                src="https://i.ibb.co/5X3Nwk3/Screen-Shot-2021-10-31-at-5-27-57-PM-removebg-preview.png"
+                                width="45"
+                                height="35"
+                                className="d-inline-block align-top"
+                                alt="React Bootstrap logo"
+                            /> Holiday.com
+                        </Navbar.Brand>
+
                         <Navbar.Toggle />
                         <div className="icon-color mx-1">
-                            <i className="fab fa-facebook" />
+                            <i className="fab fa-facebook text-color" />
                         </div>
 
                         <div className="icon-color mx-1" >
-                            <i className="fab fa-instagram" />
+                            <i className="fab fa-instagram text-color" />
                         </div>
 
                         <div className="icon-color mx-1">
-                            <i className="fab fa-twitter" />
+                            <i className="fab fa-twitter text-color" />
                         </div>
                         <Navbar.Collapse className="justify-content-end">
                             <Nav className="mx-3">
                                 <Nav.Link as={HashLink} to="/home" >Home</Nav.Link>
                                 <Nav.Link as={HashLink} to="/services#services">Services</Nav.Link>
-                                <Nav.Link as={HashLink} to="/doctors#doctors">notfound</Nav.Link>
                                 <Nav.Link as={HashLink} to="/about#about">About</Nav.Link>
+                                {user.email && <Nav.Link as={HashLink} to="/myOrders#myOrders">My Orders</Nav.Link>}
+                                {user.email && <Nav.Link as={HashLink} to="/manageOrders#manageOrders">Manage All Order</Nav.Link>}
                             </Nav>
 
                             {user?.email ?

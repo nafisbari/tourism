@@ -13,7 +13,7 @@ const WhyBooking = () => {
                     <br />
                     <br />
 
-                    <h5 className="text-color text-start">We're the Best</h5>
+                    <h4 className="text-color text-start">We're the Best</h4>
                     <h1 className="text-start">Why Booking With Us</h1>
                 </div>
                 <div className="my-5 px-5">

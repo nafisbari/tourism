@@ -27,13 +27,13 @@
 .App-link {
   color: #61dafb;
 }
-h1,h5 {
+h1,h4 {
   font-family: 'Pacifico', cursive;
 }
-h2{
+h2,p{
   font-family: 'Roboto', sans-serif;
 }
-p{
+h5{
   font-family: 'Poppins', sans-serif;
 }
 

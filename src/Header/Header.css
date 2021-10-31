@@ -1,12 +1,3 @@
-.light-bg{
-    background-color: #213360;
-}
-.icon-color{
-    color: #21cdc0;
-}
-.icon-color:hover{
-    color: rgb(15, 139, 248);
-}
 .btn-color{
     background-color: #21cdc0;
     padding: 5px 20px;

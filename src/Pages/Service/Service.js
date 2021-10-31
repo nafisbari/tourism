@@ -7,6 +7,7 @@ const Service = (props) => {
 
     return (
         <div>
+        
             <Col>
                 <Card border="dark" style={{ height: '550px' }} className="my-5 card-hover" >
 
@@ -20,7 +21,7 @@ const Service = (props) => {
                                 <p>{details1}</p>
                             </div>
                             <div>
-                            <h3 className="text-color">$ {price}</h3>
+                                <h3 className="text-color">$ {price}</h3>
                             </div>
 
                         </Card.Body>
@@ -34,7 +35,7 @@ const Service = (props) => {
 
                                 </div>
                                 <div>
-                                    
+
                                 </div>
                             </div>
                         </div>

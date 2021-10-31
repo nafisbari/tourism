@@ -20,7 +20,7 @@ const Carousal = () => {
                         <div className="row ">
                             <div className="col-lg-8 banner-text">
                                 <h1 className=" text-color text-start ">Travel & Explore the World</h1>
-                                <p className="text-start text-light">abitur facilisis consectetur porttitor. Aenean eleifend quis nunc eget aliquet..</p>
+                                <h5 className="text-start text-light">abitur facilisis consectetur porttitor. Aenean eleifend quis nunc eget aliquet..</h5>
 
                                 <div className="d-flex ">
 
@@ -50,7 +50,7 @@ const Carousal = () => {
                         <div className="row ">
                             <div className="col-lg-8 banner-text">
                                 <h1 className=" text-color text-start ">Look & Feel the World</h1>
-                                <p className="text-start text-light">abitur facilisis consectetur porttitor. Aenean eleifend quis nunc eget aliquet..</p>
+                                <h5 className="text-start text-light">abitur facilisis consectetur porttitor. Aenean eleifend quis nunc eget aliquet..</h5>
 
                                 <div className="d-flex ">
 
@@ -80,7 +80,7 @@ const Carousal = () => {
                         <div className="row me-auto">
                             <div className="col-lg-8 banner-text">
                                 <h1 className=" text-color text-start ">Relax & Enjoy the World</h1>
-                                <p className="text-start text-light">abitur facilisis consectetur porttitor. Aenean eleifend quis nunc eget aliquet..</p>
+                                <h5 className="text-start text-light">abitur facilisis consectetur porttitor. Aenean eleifend quis nunc eget aliquet..</h5>
 
                                 <div className="d-flex ">
 

@@ -6,3 +6,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.icon1{
+    font-size: 50px;
+    padding: 2px ;
+}
+.background{
+    background-color: rgb(36, 193, 197, 50%);
+}

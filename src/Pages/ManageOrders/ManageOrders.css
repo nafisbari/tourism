@@ -1,0 +1,11 @@
+.background-img-table{
+    background-image: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("https://i.ibb.co/2PCp4TP/1-1.jpg");
+    /* min-height: 700px; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-inf{
+    color: rgb(28, 70, 70);
+}
